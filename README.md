@@ -20,6 +20,11 @@
         * **Step 2:** Upload or state URL path to image or video.
         * **Step 3:** Resize your image or video using provided `Resize` service tools that should appear after format conversion.
         * **Step 4:** Choose resize size (`960x540` is current standard) and appropriate resize type to maintain a pleasing view.
+      * Other usused/useful tools:
+        * [TubeRipper](https://tuberipper.com).
+        * [CloudConvert](https://cloudconvert.com/).
+    * For retrieving or storing past files, see the Armory website archives [here](https://github.com/armoury3d).
+    * Please use a dedicated JavaScript validator such as [JSHint](https://jshint.com) or [JSLint](https://jslint.com) to validate your JavaScript code to reduce potential errors.
 # Development - Setup
 * The Armory SDK ([armsdk](https://github.com/armory3d/armsdk)) ships with Node.js: no need to download it seperately.<br />
   * The Node.js executables can be found in your `armsdk/nodejs` directory.<br />

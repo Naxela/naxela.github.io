@@ -74,15 +74,15 @@ function compileHTML() {
       }
     });
   });
-};
+}
 // Compile - Init
 compileHTML();
 // Compile - On Detected Changes
-var fsTimeout;
+let fsTimeout;
 FS.watch("templates/", {recursive: true}, e => {
   if (!fsTimeout) {
     compileHTML();
-    fsTimeout = setTimeout(function() { fsTimeout=null }, 1000)
+    fsTimeout = setTimeout(function() { fsTimeout=null; }, 1000);
   }
 });
 // Create Server
