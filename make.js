@@ -1,11 +1,11 @@
-// Import modules
+// Import Modules
 let PATH = require("path");
     FS = require("fs");
     HTTP = require("http");
     URL = require("url");
     COMPILE_NOTES = true;
     PORT = process.argv[2] || 80,
-    WEBPAGES = ["/404", "/notes", "/news", "/features", "/faq", "/community", "/download", "/privacy"];
+    WEBPAGES = ["/404", "/notes", "/news", "/features", "/faq", "/marketplace", "/community", "/download", "/privacy"];
     MIME_TYPES = {
       "html": "text/html",
       "css": "text/css",
